@@ -1,0 +1,113 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+body{
+    background-color: #345a6b;
+    font-family: 'Fira Sans', sans-serif;
+    text-align: left;
+    margin: 0;
+}
+
+h1,
+h3,
+h4{
+    font-family: 'Roboto Slab', serif;
+}
+
+/******************Header*******************/
+header{
+    background-image: linear-gradient(to right top, #030f21, #133f55, #227587, #49afaf, #89ebcc);
+    text-align: center;
+    color: rgb(255, 255, 255);
+    padding: 30px;
+}
+
+/******************Navigation Bar*************/
+nav ul{
+    background-color: #051419;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav li{
+    float: left;
+}
+
+nav a, nav a:visited{
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: #49afaf;
+}
+
+nav a:hover{
+    background-color: #6a7c85;
+}
+
+.sticky{
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+}
+
+/******************Sections****************/
+section{
+    background-color: #6cbaf4;
+    width: 60vw;
+    margin: 0 auto;
+    padding: 20px;
+    overflow: hidden;
+}
+
+.altBackground{
+    background-color: #043A7E;
+    font-family: 'Fira Sans', sans-serif;
+    color: rgb(255, 255, 255);
+}
+
+section img{
+    float: right;
+    margin-left: 20px;
+}
+
+.section img{
+    float: left;
+    margin-right: 20px;
+}
+
+#AlternateFormat{
+    text-align: left;
+    font-family: 'Fira Sans', sans-serif;
+    margin: 0 auto;
+    background-color: #043A7E;
+    color: white;
+}
+
+
+
+/******************Footer****************/
+footer{
+    background-image: linear-gradient(to right top, #030f21, #133f55, #227587, #49afaf, #89ebcc);
+    text-align: center;
+    padding: 10px;
+    color: white;
+}
+
+/**********************designing Links*******************/
+a{
+    color: #49afaf;
+}
+
+a:visited{
+    color: #89ebcc;
+}
+
+a:hover{
+    color: #c4e7f7;
+}
+
+a:active{
+    color: rgb(196, 0, 196);
+}
