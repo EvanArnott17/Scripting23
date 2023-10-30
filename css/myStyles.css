@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Serif:opsz@8..144&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bevan&family=Roboto+Serif:opsz@8..144&display=swap');
+
+
+body{
+    background-color: #d8d8d8;
+    font-family: 'Roboto Serif', serif;
+}
+
+
+header{
+    background-color: #3f5379;
+}
+
+h1,h2,h3,h4{
+    font-family: 'Bevan', serif;
+}
+
+nav ul{
+    background-color: #151b3d;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+nav a:hover{
+    background-color: #363c54;
+}
+
+nav a:visited{
+    color: #b8c7e6;
+}
+
+nav a:active{
+    color: whitesmoke;
+}
+
+.sticky{
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+}
+
+a{
+    color: #0f00b9;
+}
+
+section{
+    background-color: #9395af;
+    width: 80vw;
+    margin: auto;
+    overflow: hidden;
+}
+
+footer{
+    background-color: #3f5379;
+}
