@@ -1,0 +1,26 @@
+header{
+    background-image: url(../images/pet_Sitting.jpg);
+    background-size: cover;
+    height: 60vh;
+}
+
+#ServiceHeader{
+    background-image: url(../images/Services_Header.jpg);
+    background-position: center;
+}
+
+.bg-green{
+    background-color: rgb(104, 196, 76);
+}
+
+.nav-link{
+    color: rgb(167, 231, 173) !important;
+}
+
+ nav a:hover{
+    color: aqua;
+ }
+
+footer a{
+    color: white;
+}
