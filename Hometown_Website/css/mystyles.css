@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap');
+
+h1,h2,h3{
+    font-family: 'Archivo Black', sans-serif;
+}
+header{
+    background-image: url(../images/Header_Background.jpg);
+    background-size: cover;
+    background-position: bottom;
+    height: 70vh;
+}
+
+body{
+    background-color: #D8D1CA;
+    font-family: 'Roboto Slab', serif;
+}
+
+.bg-Brown{
+    background-color: #BD9C54;
+}
+
+nav a:hover{
+    color: #828C3E;
+}
+
+footer{
+    background-color: #525928;
+    color: white;
+    margin-top: 50px;
+}
