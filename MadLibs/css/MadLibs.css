@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Rosarivo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap');
+
+body{
+    background-color: #412730;
+    font-family: 'Rosarivo', cursive;
+}
+
+h1,h2,h3,h4,h5{
+    font-family: 'DM Serif Display', serif;
+}
+
+header{
+    background-image: url("../images/restaurant.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 20vw;
+}
+
+.Intro{
+    background-color: #3A4648;
+    width: 55vw;
+    margin: 0 auto;
+}
+
+.Input{
+    background-color: #2D4A5A;
+}
+
+.Output{
+    background-color: #93b3c1;
+}
+
+a{
+    color: rgb(216, 230, 247);
+}
+
+a:hover{
+    color: #412730;
+}
+a:active{
+    color: #e9ecee;
+}
+
+footer{
+    background-color: #3A4648;
+}
